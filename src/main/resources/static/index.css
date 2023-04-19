@@ -1,0 +1,50 @@
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 50%, #f97fee 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 110vh;
+    overflow-x: hidden;}   
+ 
+.input-group{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+.input-group input{
+    padding: 10px;
+    border-radius: 5px;
+    width:15vw;
+    margin-top: 10px;
+}
+#gender{
+    padding: 10px;
+}
+
+.input-group input:focus{
+    outline: none;
+    border-color: blueviolet;
+}
+
+.input-group .error{
+    color: red;
+}
+
+.error input{
+    border-color: rgb(192, 34, 34);
+}
+
+.success input{
+    border-color: rgb(49, 121, 49);
+}
+
+#form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
